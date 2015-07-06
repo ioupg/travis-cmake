@@ -11,8 +11,7 @@ install:
 before_script:
   - mkdir build
   - cd build
-  - pwd
-  - cmake 
+  - cmake ..
 
 script:
   - pwd
